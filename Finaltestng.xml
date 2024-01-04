@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="Sanity"></include>
+<include name="Smoke"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="org.Util.ListenersLogic"></listener>
+<listener class-name="org.Util.AnnotationLogic"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.TestNG_Batch_Dec_12th.ParallelExecution"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.FirstProgram"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.ProgramTwo"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.MultipleDatas"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.AssertionTopics"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.SeleniumWithAnnotation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

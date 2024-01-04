@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.Util.ListenersLogic"/>
+    <listener class-name="org.Util.AnnotationLogic"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.TestNG_Batch_Dec_12th.AssertionTopics">
+        <methods>
+          <include name="test1"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- TestNG.TestNG_Batch_Dec_12th.AssertionTopics -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

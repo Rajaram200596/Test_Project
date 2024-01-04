@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "myProject">
+<test name = "Dummy">
+<classes>
+<class name = "TestNG.TestNG_Batch_Dec_12th.SeleniumWithAnnotation">
+</class>
+</classes>
+</test>
+</suite>

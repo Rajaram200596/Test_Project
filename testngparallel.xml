@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="email" value="ashwin@gmail.com"></parameter>
+<parameter name="pwd" value="123456789Test"></parameter>
+<parameter name="browser" value="safari"></parameter>
+<parameter name="url" value="https://github.com/RNeelakandanR/SampleTask/blob/master/src/test/java/com/demo/runner/testRunner.java"></parameter>
+  <test thread-count="5" name="Test" >
+    <classes>
+      
+      <class name="TestNG.TestNG_Batch_Dec_12th.EnviornmentVariables"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

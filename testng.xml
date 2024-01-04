@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="methods">
+    <classes>
+      <class name="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.FirstProgram"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.ProgramTwo"/>
+      <class name="TestNG.TestNG_Batch_Dec_12th.SeleniumWithAnnotation">
+      <methods>
+      <include name="test2"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

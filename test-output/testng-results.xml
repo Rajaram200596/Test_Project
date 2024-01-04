@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="17" total="25" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T06:53:18Z" name="Suite" finished-at="2023-12-22T06:53:19Z" duration-ms="262">
+    <groups>
+      <group name="Sanity">
+        <method signature="AnnotationsProgram.testcase_Tc02()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" name="testcase_Tc02" class="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram"/>
+        <method signature="AnnotationsProgram.testcase_Tc03()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" name="testcase_Tc03" class="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram"/>
+        <method signature="FirstProgram.test1()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.FirstProgram@54504ecd]" name="test1" class="TestNG.TestNG_Batch_Dec_12th.FirstProgram"/>
+        <method signature="ProgramTwo.browserLaunch()[pri:1, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" name="browserLaunch" class="TestNG.TestNG_Batch_Dec_12th.ProgramTwo"/>
+        <method signature="ProgramTwo.loginCredentials()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" name="loginCredentials" class="TestNG.TestNG_Batch_Dec_12th.ProgramTwo"/>
+        <method signature="ProgramTwo.shutdownApp()[pri:6, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" name="shutdownApp" class="TestNG.TestNG_Batch_Dec_12th.ProgramTwo"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="AnnotationsProgram.testcase_Tc01()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" name="testcase_Tc01" class="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram"/>
+        <method signature="FirstProgram.test2()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.FirstProgram@54504ecd]" name="test2" class="TestNG.TestNG_Batch_Dec_12th.FirstProgram"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-12-22T06:53:18Z" name="Test" finished-at="2023-12-22T06:53:19Z" duration-ms="262">
+      <class name="TestNG.TestNG_Batch_Dec_12th.FirstProgram">
+        <test-method signature="test1()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.FirstProgram@54504ecd]" started-at="2023-12-22T06:53:18Z" name="test1" finished-at="2023-12-22T06:53:18Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.FirstProgram@54504ecd]" started-at="2023-12-22T06:53:18Z" name="test2" finished-at="2023-12-22T06:53:18Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- TestNG.TestNG_Batch_Dec_12th.FirstProgram -->
+      <class name="TestNG.TestNG_Batch_Dec_12th.ProgramTwo">
+        <test-method signature="loginCredentials()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" started-at="2023-12-22T06:53:18Z" name="loginCredentials" finished-at="2023-12-22T06:53:18Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method signature="browserLaunch()[pri:1, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" started-at="2023-12-22T06:53:18Z" name="browserLaunch" finished-at="2023-12-22T06:53:18Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="shutdownApp()[pri:6, instance:TestNG.TestNG_Batch_Dec_12th.ProgramTwo@38b27cdc]" started-at="2023-12-22T06:53:19Z" name="shutdownApp" finished-at="2023-12-22T06:53:19Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownApp -->
+      </class> <!-- TestNG.TestNG_Batch_Dec_12th.ProgramTwo -->
+      <class name="TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram">
+        <test-method signature="testcase_Tc01()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" started-at="2023-12-22T06:53:18Z" name="testcase_Tc01" finished-at="2023-12-22T06:53:18Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_Tc01 -->
+        <test-method signature="testcase_Tc02()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" started-at="2023-12-22T06:53:18Z" name="testcase_Tc02" finished-at="2023-12-22T06:53:18Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_Tc02 -->
+        <test-method signature="testcase_Tc03()[pri:0, instance:TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram@74bf1791]" started-at="2023-12-22T06:53:18Z" name="testcase_Tc03" finished-at="2023-12-22T06:53:18Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_Tc03 -->
+      </class> <!-- TestNG.TestNG_Batch_Dec_12th.AnnotationsProgram -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
